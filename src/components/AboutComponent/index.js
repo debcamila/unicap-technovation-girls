@@ -35,17 +35,11 @@ export default (function AboutComponent() {
                 </Grid>
 
                 <Grid item xs={12} sm={6}>
-                    <Card variant="outlined">
-                        <CardActionArea style={{ height: '100%' }}>
-                            <CardContent style={{ textAlign: 'center', paddingTop: '20px' }}>
-                                <img style={{ width: '100%', height: '100%' }}
-                                    src={logoAbout}
-                                    alt="Sobre o Unicap Technovation for Girls"
-                                    title="Sobre o Unicap Technovation for Girls"
-                                />
-                            </CardContent>
-                        </CardActionArea>
-                    </Card>
+                    <img style={{ width: '100%', height: '100%' }}
+                        src={logoAbout}
+                        alt="Ideação, Programação, Empreendedorismo, Pitch"
+                        title="Ideação, Programação, Empreendedorismo, Pitch"
+                    />      
                 </Grid>
             </Grid>
         </div>
