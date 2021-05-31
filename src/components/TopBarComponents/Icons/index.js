@@ -11,13 +11,19 @@ export default (function Icons() {
         <div className = "icons-div">
             <div className="icons">
                 <IconButton>
-                    <FacebookIcon fontSize="large" className="cor-icons" />
+                    <a href="#" style={{textDecoration: 'none'}}>
+                        <FacebookIcon fontSize="large" className="cor-icons" />
+                    </a>
                 </IconButton>
-                <IconButton className="cor-icons">
-                    <TwitterIcon fontSize="large" className="cor-icons" />
+                <IconButton>
+                    <a href="#" style={{textDecoration: 'none'}}>
+                        <TwitterIcon fontSize="large" className="cor-icons" />
+                    </a>
                 </IconButton>
-                <IconButton className="cor-icons">
-                    <InstagramIcon fontSize="large" className="cor-icons" />
+                <IconButton>
+                    <a href="#" style={{textDecoration: 'none'}}>
+                        <InstagramIcon fontSize="large" className="cor-icons" />
+                    </a>
                 </IconButton>
             </div>
         </div>
