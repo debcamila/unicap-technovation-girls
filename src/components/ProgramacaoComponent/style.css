@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.title{
+    color: #351B69;
+    font-weight: bolder;
+    font-family: 'Roboto';
+    padding-top: 40px;
+}
+
+.subtitulo{
+    color: #0000;
+    font-weight: bolder;
+    font-family: 'Roboto';
+}
+
+.programacao{
+    background-color: #FBD6DB;
+}
