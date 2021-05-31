@@ -5,7 +5,7 @@ import SlideComponent from '../components/SlideComponent';
 import ApoioComponent from '../components/ApoioComponent';
 import MentoresComponent from '../components/MentoresComponent';
 import ProgramacaoComponent from '../components/ProgramacaoComponent';
-import FooterComponent from '../components/FooterComponent';
+import Footer from '../components/Footer';
 import AboutComponent from '../components/AboutComponent';
 import "./style.css";
 
@@ -22,7 +22,7 @@ export default (function HomePage() {
                 <ApoioComponent />
             </div>
             <MentoresComponent />
-            <FooterComponent />
+            <Footer />
         </div>
     )
 })
