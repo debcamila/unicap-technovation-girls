@@ -1,0 +1,19 @@
+
+.footer{
+    background-color: #5D4097;
+    padding: 20px;
+}
+
+.duvidas{
+    color: #ffff;
+}
+
+.icons-footer{color: #ffff;}
+
+.icons-footer-div{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
