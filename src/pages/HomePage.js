@@ -1,13 +1,28 @@
 
 import React from 'react';
 import TopBar from '../components/TopBar';
+import SlideComponent from '../components/SlideComponent';
+import ApoioComponent from '../components/ApoioComponent';
+import MentoresComponent from '../components/MentoresComponent';
+import ProgramacaoComponent from '../components/ProgramacaoComponent';
+import FooterComponent from '../components/FooterComponent';
+import AboutComponent from '../components/AboutComponent';
 import "./style.css";
 
 export default (function HomePage() {
     return (
         <div className="homepage">
             <TopBar />
-            <div className="container"></div>
+            <SlideComponent />
+            <div className="container">
+                <AboutComponent />
+            </div>
+            <ProgramacaoComponent />          
+            <div className="container">
+                <ApoioComponent />
+            </div>
+            <MentoresComponent />
+            <FooterComponent />
         </div>
     )
 })
