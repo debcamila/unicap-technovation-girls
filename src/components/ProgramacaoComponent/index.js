@@ -33,8 +33,8 @@ export default (function ProgramacaoComponent() {
                             <CardContent>
                                 <img style={{width: '100%', height:'100%'}}
                                     src={imgProgramacao1}
-                                    alt="Icam"
-                                    title="Icam"
+                                    alt="Programação"
+                                    title="Programação"
                                 />
                             </CardContent>
                         </Card>
@@ -44,8 +44,8 @@ export default (function ProgramacaoComponent() {
                             <CardContent>
                                 <img style={{width: '100%', height:'100%'}}
                                     src={imgProgramacao3}
-                                    alt="Icam"
-                                    title="Icam"
+                                    alt="Programação"
+                                    title="Programação"
                                 />
                             </CardContent>
                         </Card>
@@ -55,8 +55,8 @@ export default (function ProgramacaoComponent() {
                             <CardContent >
                                 <img style={{width: '100%', height:'100%'}}
                                     src={imgProgramacao2}
-                                    alt="Icam"
-                                    title="Icam"
+                                    alt="Programação"
+                                    title="Programação"
                                 />
                             </CardContent>
                         </Card>
