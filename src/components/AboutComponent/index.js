@@ -26,9 +26,9 @@ export default (function AboutComponent() {
                     </Typography>
 
                     <div className="div-instagram">
-                        <a href="#" className="link-btn-instagram">
+                        <a href="https://www.technovationbrasil.org/" target="_blank" className="link-btn-instagram">
                             <Button variant="contained" size="large" className="btn-noticias">
-                                Nos acompanhe no instagram
+                                Saiba mais
                             </Button>
                         </a>
                     </div>
