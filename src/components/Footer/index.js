@@ -13,7 +13,7 @@ export default (function Footer() {
                 <Grid container >
                     <Grid item xs={12} >
                         <CopyrightIcon style={{ fontSize: '15px', paddingRight: '5px', paddingTop: '2px' }} /> 
-                           2021 Unicap Technovation for Girls.
+                           2021 Unicap Icam Tech School for Girls.
                     </Grid>
                 </Grid>
             </div>
