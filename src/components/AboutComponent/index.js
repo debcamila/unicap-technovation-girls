@@ -2,9 +2,6 @@
 import React from 'react';
 import { Typography } from '@material-ui/core';
 import { Grid } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
 import logoAbout from '../../static/images/about.png';
 import Button from '@material-ui/core/Button';
 import "./style.css";
