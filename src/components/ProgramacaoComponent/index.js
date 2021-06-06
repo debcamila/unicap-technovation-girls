@@ -1,11 +1,10 @@
 
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import imgProgramacao1 from '../../static/images/programacao1.png';
-import imgProgramacao2 from '../../static/images/programacao2.png';
-import imgProgramacao3 from '../../static/images/programacao3.png';
+import SliderComponent from '../SliderComponent';
+import programacao1 from  '../../static/images/programacao1.png';
+import programacao2 from  '../../static/images/programacao2.png';
+import programacao3 from  '../../static/images/programacao3.png';
 import "./style.css";
 
 
@@ -27,41 +26,7 @@ export default (function ProgramacaoComponent() {
                     </Grid>
                 </Grid>
 
-                <Grid container spacing={5}>
-                    <Grid item xs={12} sm={4} >
-                        <Card variant="outlined">
-                            <CardContent>
-                                <img style={{width: '100%', height:'100%'}}
-                                    src={imgProgramacao1}
-                                    alt="Programação"
-                                    title="Programação"
-                                />
-                            </CardContent>
-                        </Card>
-                    </Grid>
-                    <Grid item xs={12} sm={4} >
-                        <Card variant="outlined">
-                            <CardContent>
-                                <img style={{width: '100%', height:'100%'}}
-                                    src={imgProgramacao3}
-                                    alt="Programação"
-                                    title="Programação"
-                                />
-                            </CardContent>
-                        </Card>
-                    </Grid>
-                    <Grid item xs={12} sm={4} >
-                        <Card variant="outlined">
-                            <CardContent >
-                                <img style={{width: '100%', height:'100%'}}
-                                    src={imgProgramacao2}
-                                    alt="Programação"
-                                    title="Programação"
-                                />
-                            </CardContent>
-                        </Card>
-                    </Grid>
-                </Grid>
+                <SliderComponent images={[programacao1,programacao3,programacao2]}  productAmount={3}/>
 
             </div>
         </div>

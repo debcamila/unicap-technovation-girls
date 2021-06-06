@@ -23,7 +23,7 @@ export default (function SlideComponents() {
 
             <div className="div-noticias">
                 <Button variant="contained" size="large" className="btn-noticias" >
-                    Notícias
+                    Inscreva-se
                 </Button>
             </div>
 
