@@ -22,9 +22,11 @@ export default (function SlideComponents() {
             </div>
 
             <div className="div-noticias">
-                <Button variant="contained" size="large" className="btn-noticias" >
-                    Inscreva-se
-                </Button>
+                <a href="https://forms.gle/Yjcr3yC45wuZ3fAL7" target="_blank" className="link-btn-instagram">
+                    <Button variant="contained" size="large" className="btn-noticias" >
+                        Inscreva-se
+                    </Button>
+                </a>
             </div>
 
         </div>
