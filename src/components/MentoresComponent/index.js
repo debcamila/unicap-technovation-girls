@@ -12,7 +12,7 @@ import "./style.css";
 
 export default (function MentoresComponent() {
     return (
-        <div className="mentores">
+        <div className="mentores" id="mentores">
             <div className='container' style={{ marginTop: '50px' }}>
 
                 <Typography className="title" variant="h4">

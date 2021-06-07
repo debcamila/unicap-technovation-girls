@@ -8,7 +8,7 @@ import "./style.css";
 
 export default (function AboutComponent() {
     return (
-        <div className="about">
+        <div className="about" id="sobre">
             <Grid container spacing={5}>
                 <Grid item xs={12} sm={6}>
                     <Typography className="title" variant="h5" style={{ fontWeight: '900' }}>

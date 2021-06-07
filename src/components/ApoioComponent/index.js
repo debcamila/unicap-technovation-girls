@@ -12,7 +12,7 @@ import "./style.css";
 
 export default (function ApoioComponent() {
     return (
-        <div className="apoio">
+        <div className="apoio" id="apoio">
             <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
 
                 <Typography className="title" variant="h4">
