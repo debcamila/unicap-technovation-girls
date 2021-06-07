@@ -9,10 +9,11 @@
 
 .paper{height: 58px;}
 
-.link-navbar{
+.link-navbar a{
     color: #000;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
 
 .link-navbar:hover{color: #e73d87;}
+

@@ -14,11 +14,21 @@ export default (function Navbar() {
                     centered
                     textColor="default"
                 >
-                    <Tab className="link-navbar" label="Início" />
-                    <Tab className="link-navbar" label="Sobre" />
-                    <Tab className="link-navbar" label="Programação" />
-                    <Tab className="link-navbar" label="Apoiadores" />
-                    <Tab className="link-navbar" label="Mentores" />
+                    <a href="/" style={{textDecoration:'none', color: '#000', fontWeight: '900', fontFamily: 'Roboto'}}>
+                        <Tab className="link-navbar" label="Início" />
+                    </a>
+                    <a href="#sobre" style={{textDecoration:'none', color: '#000', fontWeight: '900', fontFamily: 'Roboto'}}>
+                        <Tab className="link-navbar" label="Sobre" />
+                    </a>
+                    <a href="#programacao" style={{textDecoration:'none', color: '#000', fontWeight: '900', fontFamily: 'Roboto'}}>
+                        <Tab className="link-navbar" label="Programação" />
+                    </a>
+                    <a href="#apoio" style={{textDecoration:'none', color: '#000', fontWeight: '900', fontFamily: 'Roboto'}}>
+                        <Tab className="link-navbar" label="Apoiadores" />
+                    </a>
+                    <a href="#mentores" style={{textDecoration:'none', color: '#000', fontWeight: '900', fontFamily: 'Roboto'}}>
+                        <Tab className="link-navbar" label="Mentores" />
+                    </a>
                 </Tabs>
             </Paper>
         </div>
