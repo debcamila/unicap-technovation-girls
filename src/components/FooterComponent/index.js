@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
-import logo from '../../static/images/logo.png';
+import logo from '../../static/images/logo-transparente.png';
 import IconButton from '@material-ui/core/IconButton';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -16,7 +16,7 @@ export default (function FooterComponent() {
                 <Grid container style={{ marginTop: '30px' }}>
                     
                     <Grid item xs={12} sm={6}>
-                        <img style={{width: '200px', height:'124px'}}
+                        <img style={{width: '200px', height:'200px'}}
                             src={logo}
                             alt="Unicap Icam Tech School for Girls"
                             title="Unicap Icam Tech School for Girls"
