@@ -3,7 +3,7 @@ import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
 import mentora1 from '../../static/images/beatriz-ramos.jpeg';
 import mentora2 from '../../static/images/catherine-aussourd.jpeg';
-import mentora3 from '../../static/images/beatriz-ramos.jpeg';
+import mentora3 from '../../static/images/hannatty-barros.jpeg';
 import mentora4 from '../../static/images/izabella-esther.jpeg';
 import mentora5 from '../../static/images/maria-carmo.jpeg';
 import mentora6 from '../../static/images/marilia-vilar.jpeg';
@@ -48,11 +48,11 @@ export default (function MentoresComponent() {
                         <Grid item xs={12} sm={4}> 
                             <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
                                 src={mentora3}
-                                alt="Hannatty Mendonça"
-                                title="Hannatty Mendonça"
+                                alt="Hannatty Barros"
+                                title="Hannatty Barros"
                             />
                             <Typography className="subtitle" variant="h6">
-                                Hannatty Mendonça
+                                Hannatty Barros
                             </Typography>
                         </Grid>
                 </Grid>
