@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Unicap Icam Tech for Girls
+<h1 align="center">
+    <img alt="UI Icam Tech School for Girls" src="src/static/images/logo.png" width="400px">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#sobre">Sobre </a>|
+  <a href="#tecnologias">Tecnologias </a>|
+  <a href="#projeto">Projeto </a>|
+    <a href="#link-projeto">Link do projeto </a>|
+  <a href="#desenvolvimento">Desenvolvimento</a>
+</p>
+<br/>
+<br/>
 
-In the project directory, you can run:
+<div id="sobre"></div>
 
-### `npm start`
+## Sobre
+<p>
+    O objetivo da Unicap Icam Tech School for Girls é ensinar meninas de 10 a 18 anos a desenvolverem um protótipo de um aplicativo de celular, partindo de um problema do mundo real que elas desejam solucionar. Durante a jornada, as meninas irão desenvolver várias habilidades como, resolução de problemas, programação, empreendedorismo e liderança. No final, espera-se que os projetos desenvolvidos na escola sejam apresentados no <a href="https://technovationchallenge.org/" target="_blank">Technovation Girls</a> , a maior competição para meninas do mundo inteiro.
+</p>
+<br/>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div id="tecnologias"></div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
+<br/>
+<p>Este projeto foi desenvolvido com as seguintes tecnologias:</p>
+<br/>
+<ul>
+  <li><a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript" target="_blank">JavaScript</a></li>
+  <li><a href="https://reactjs.org/" target="_blank">ReactJs</a></li>
+  <li><a href="https://material-ui.com/pt/" target="_blank">Material-UI</a></li>
+</ul>
+<br/>
+<br/>
 
-### `npm test`
+<div id="projeto"></div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projeto
+<br/>
+<p>O projeto consiste em uma aplicação one-page para a apresentação do projeto Unicap Icam Tech School for Girls.</p>
+<p>No cabeçalho podemos encontrar a logo do projeto, um menu navegação e as redes sociais. A aplicação está divida em seções. A seção Sobre, é possível buscar mais informações sobre a escola e sobre a competição Technovation Girls. Logo abaixo uma seção onde é possível conferir toda a programação de ensino da escola Unicap Icam Tech School for Girls. Na seção de Apoio podemos visualizar os apoiadores do projeto, e na seção seguinte é possível identificar o time de mentores que irão ajudar as meninas nos desafios. Por fim no rodapé temos novamente a logo, as redes sociais do projeto e um e-mail para contato.</p>
+<br/>
+<br/>
+<p>
+<a lign="center" href="https://www.figma.com/file/9dwDjRPxemTBSxDrBcV0LN/Unicap-Icam-Tech-School-for-Girls?node-id=0%3A1" target="_blank">🎨  Clicando aqui </a> é possível verificar o layout do projeto, desenvolvido no Figma</p>
+<br/>
+<h3 align="center">
+    <img alt="Protótipo Figma" src="src/static/images/screen-page.png" width="400px" />
+</h3>
+<br/>
+<br/>
 
-### `npm run build`
+<div id="link-projeto"></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Link para o projeto
+<br/>
+<p>Atualmente, o projeto encontra-se hospedado no <a href="https://www.heroku.com/" target="_blank">Heroku</a> Uma plataforma em nuvem para hospedagem, implantação, escalonamento e garenciamento de aplicativos.</p>
+<br/>
+<p>Link da aplicação: <a href="https://unicap-icam-tech-school-girls.herokuapp.com/" target="_blank">Unicap Icam Tech School for Girls</a></p>
+<br/>
+</br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<div id="desenvolvimento"></div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Desenvolvimento
+<br/>
+<br/>
+<br/>
+<table>
+  <tr>
+        <td align="center" style="border: none;">
+            <a href="https://github.com/debcamila">
+                <img style="border-radius: 50px;" src="src/static/images/deborah-camila.jpg" width="70px;" alt="Deborah Camila"/>
+                <br />
+                <sub><b>Deborah Camila</b></sub>
+            </a>
+            <br/>
+            <p><scan title="Code">💻</scan>|<scan title="Documentation">🎨</scan>|<scan title="Bugs">🐛</scan></p>
+        </td>
+    </tr>
+</table>
