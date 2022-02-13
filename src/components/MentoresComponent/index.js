@@ -10,7 +10,9 @@ import mariana_oliveira from '../../static/images/mariana-oliveira.png';
 import marilia_vilar from '../../static/images/marilia-vilar.jpeg';
 import mayara_ribeiro from '../../static/images/mayara-ribeiro.jpeg';
 import rayssa_muniz from '../../static/images/rayssa-muniz.png';
-import user from '../../static/images/user.png';
+import andrea_maria from '../../static/images/andrea-maria.jpeg';
+import michelle_tenca from '../../static/images/michelle-tenca.jpeg';
+import liliane_fonseca from '../../static/images/liliane-fonseca.jpeg';
 import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
@@ -33,7 +35,7 @@ export default (function MentoresComponent() {
 
                 <Grid container spacing={5} style={{marginTop:'30px', display: 'flex', justifyContent: 'flex-start'}}>
                     <Grid item xs={12} sm={4}>
-                        <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                        <img style={{width: '200px', height:'200px'}}
                             src={alice_florencio}
                             alt="Alice Florencio"
                             title="Alice Florencio"
@@ -61,7 +63,7 @@ export default (function MentoresComponent() {
                     </Grid>
 
                         <Grid item xs={12} sm={4}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={deborah_camila}
                                 alt="Deborah Camila"
                                 title="Deborah Camila"
@@ -89,7 +91,7 @@ export default (function MentoresComponent() {
                         </Grid>
 
                         <Grid item xs={12} sm={4}> 
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={graziela_goncalves}
                                 alt="Graziela de Oliveira"
                                 title="Graziela de Oliveira"
@@ -119,7 +121,7 @@ export default (function MentoresComponent() {
 
                 <Grid container spacing={5} style={{marginTop:'30px', display: 'flex', justifyContent: 'flex-end'}}>
                     <Grid item xs={12} sm={4}> 
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={maria_eduarda}
                                 alt="Maria Eduarda Azenha"
                                 title="Maria Eduarda Azenha"
@@ -147,7 +149,7 @@ export default (function MentoresComponent() {
                         </Grid>  
 
                     <Grid item xs={12} sm={4} style={{marginBottom: '50px'}}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={maria_carmo}
                                 alt="Maria do Carmo"
                                 title="Maria do Carmo"
@@ -175,7 +177,7 @@ export default (function MentoresComponent() {
                         </Grid>
 
                         <Grid item xs={12} sm={4}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={mariana_oliveira}
                                 alt="Mariana Oliveira"
                                 title="Mariana Oliveira"
@@ -205,7 +207,7 @@ export default (function MentoresComponent() {
 
                 <Grid container spacing={5} style={{marginTop:'30px', justifyContent: 'center'}}>
                     <Grid item xs={12} sm={4}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={marilia_vilar}
                                 alt="Marília Vilar"
                                 title="Marília Vilar"
@@ -233,7 +235,7 @@ export default (function MentoresComponent() {
                     </Grid>
 
                     <Grid item xs={12} sm={4}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={mayara_ribeiro}
                                 alt="Mayara Ribeiro"
                                 title="Mayara Ribeiro"
@@ -261,7 +263,7 @@ export default (function MentoresComponent() {
                     </Grid>
 
                     <Grid item xs={12} sm={4} style={{marginBottom: '50px'}}>
-                            <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
+                            <img style={{width: '200px', height:'200px'}}
                                 src={rayssa_muniz}
                                 alt="Rayssa Muniz"
                                 title="Rayssa Muniz"
@@ -293,7 +295,7 @@ export default (function MentoresComponent() {
 
         <div className='container' style={{ marginTop: '50px' }}>
                 <Typography className="title-mentoras" variant="h5">
-                    Coordenação e Suporte
+                    Coordenação do Projeto
                 </Typography>
                 <Typography className="subtitle-mentoras" variant="p">
                     Conheça nossa equipe de professoras dedicadas a coordenar e apoiar nossas mentoras
@@ -301,8 +303,8 @@ export default (function MentoresComponent() {
 
                 <Grid container spacing={5} style={{marginTop:'30px', display: 'flex', justifyContent: 'flex-start'}}>
                     <Grid item xs={12} sm={4}>
-                        <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
-                            src={user}
+                        <img style={{width: 'auto', height:'200px'}}
+                            src={andrea_maria}
                             alt="Andrea Maria"
                             title="Andrea Maria"
                         />
@@ -311,8 +313,8 @@ export default (function MentoresComponent() {
                         </Typography>
                     </Grid>
                     <Grid item xs={12} sm={4}>
-                        <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
-                            src={user}
+                        <img style={{width: 'auto', height:'200px'}}
+                            src={michelle_tenca}
                             alt="Michelle Tenca"
                             title="Michelle Tenca"
                         />
@@ -321,8 +323,8 @@ export default (function MentoresComponent() {
                         </Typography>
                     </Grid>
                     <Grid item xs={12} sm={4}>
-                        <img style={{width: '200px', height:'200px', borderRadius:'100%'}}
-                            src={user}
+                        <img style={{width: 'auto', height:'200px'}}
+                            src={liliane_fonseca}
                             alt="Liliane Fonseca"
                             title="Liliane Fonseca"
                         />

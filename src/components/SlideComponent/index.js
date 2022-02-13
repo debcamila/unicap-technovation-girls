@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ImageSlide from '../../static/images/banner.png';
+import ImageSlide from '../../static/images/banner.jpeg';
 import "./style.css";
 import { Typography } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
@@ -14,7 +14,7 @@ export default (function SlideComponents() {
                 title="Imagem do slide Unicap Icam (UI) Tech School for girls"
             />
             
-            <div className="noticias">
+            {/* <div className="noticias">
                 <Typography className="title-noticias" variant="h6">
                     Inscrições abertas para a Unicap Icam (UI) Tech School for girls
                 </Typography>
@@ -26,7 +26,7 @@ export default (function SlideComponents() {
                         Inscreva-se
                     </Button>
                 </a>
-            </div>
+            </div> */}
 
         </div>
     )

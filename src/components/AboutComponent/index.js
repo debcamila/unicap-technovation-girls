@@ -33,14 +33,6 @@ export default (function AboutComponent() {
                     <p className="text-about" style={{ marginTop: '40px', textAlign: 'justify' }}>
                         A Unicap Icam (UI) Tech School for girls é uma iniciativa da UNICAP ICAM TECH para o incentivo e desenvolvimento de competências e habilidades nas meninas das escolas públicas e privadas e nas estudantes dos cursos de graduação da UNICAP nas área de STEM (Ciência, Tecnologia, Engenharia, Matemática). O objetivo da escola é capacitar e realizar mentorias para meninas de 8 a 17 anos no período de 3 (três) meses para participação do maior campeonato mundial de tecnologia e empreendedorismo feminino, o Technovation Girls.
                     </p>
-
-                    <div className="div-instagram">
-                        <a href="https://www.technovationbrasil.org/" target="_blank" className="link-btn-instagram">
-                            <Button variant="outlined" size="large" className="btn-sobre">
-                                Saiba mais
-                            </Button>
-                        </a>
-                    </div>
                 </Grid>
             </Grid>
 

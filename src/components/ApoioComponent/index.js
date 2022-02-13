@@ -13,15 +13,15 @@ import "./style.css";
 export default (function ApoioComponent() {
     return (
         <div className="parceiros" id="parceiros">
-            <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
+            <div className='container' style={{ marginTop: '50px' }}>
 
                 <Typography className="title-apoio" variant="h5">
                     Parceiros
                 </Typography>
 
-                <Grid container spacing={5} style={{marginTop:'30px'}}>
+                <Grid container spacing={5}>
                     <Grid item xs={12} sm={6}>
-                        <img style={{width: '100%', height:'180px'}}
+                        <img style={{width: 'auto', height:'180px'}}
                             src={cfc}
                             alt="Colégio Fazer Crescer"
                             title="Colégio Fazer Crescer"
@@ -29,7 +29,7 @@ export default (function ApoioComponent() {
                     </Grid>
 
                     <Grid item xs={12} sm={6}>
-                        <img style={{width: '100%', height:'280px'}}
+                        <img style={{width: 'auto', height:'280px'}}
                             src={liceu_nobrega}
                             alt="Escola Liceu Nóbrega de Artes e Ofícios"
                             title="Escola Liceu Nóbrega de Artes e Ofícios"
@@ -40,15 +40,15 @@ export default (function ApoioComponent() {
 
             </div>
 
-            <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
+            <div className='container' style={{ marginBottom: '30px', marginTop: '50px' }}>
 
                 <Typography className="title-apoio" variant="h5">
                     Organização
                 </Typography>
 
-                <Grid container spacing={5} style={{marginTop:'30px'}}>
+                <Grid container spacing={5}>
                     <Grid item xs={12} sm={12}>
-                        <img style={{width: '350px', height:'350px'}}
+                        <img style={{width: '300px', height:'350px'}}
                             src={unicas}
                             alt="Coletivo Unicas - Mulheres na Ciência e Tecnologia da UNICAP"
                             title="Coletivo Unicas - Mulheres na Ciência e Tecnologia da UNICAP"

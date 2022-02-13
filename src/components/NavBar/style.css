@@ -1,0 +1,13 @@
+.img-logo{
+    width: 140px;
+    height: 80px;
+}
+.nav-link {
+    color: #828282 !important;
+}
+.nav-link:hover{
+    color: #FF0C9E !important;
+}
+.icon-color{
+    color: #000000;
+}

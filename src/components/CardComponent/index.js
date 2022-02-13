@@ -1,10 +1,10 @@
-import { withStyles } from '@material-ui/core';
+import { withStyles } from '@material-ui/styles';
 import { Grid } from '@material-ui/core';
 import React, { PureComponent } from 'react';
 
 const styles = () => ({});
 
-class ProductCardComponent extends PureComponent {
+class CardComponent extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,4 +30,4 @@ class ProductCardComponent extends PureComponent {
 }
 
 
-export default (withStyles(styles)(ProductCardComponent));
+export default (withStyles(styles)(CardComponent));

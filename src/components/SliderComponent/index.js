@@ -1,14 +1,12 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import {
-    withStyles, Grid
-} from '@material-ui/core';
+import { withStyles } from '@material-ui/styles';
 
 import CardComponent from '../CardComponent';
 import IconButton from '@material-ui/core/IconButton';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-
+import { Grid } from '@material-ui/core';
 
 const styles = () => ({
 
