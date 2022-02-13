@@ -4,66 +4,58 @@ import { Grid, Typography } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
-import logoIcam from '../../static/images/icam.png';
-import logo from '../../static/images/logo.png';
-import logoUnicap from '../../static/images/unicap.jpg';
+import cfc from '../../static/images/cfc.png';
+import liceu_nobrega from '../../static/images/liceu-nobrega.png';
+import unicas from '../../static/images/unicas.png';
 import "./style.css";
 
 
 export default (function ApoioComponent() {
     return (
-        <div className="apoio" id="apoio">
+        <div className="parceiros" id="parceiros">
             <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
 
-                <Typography className="title" variant="h4">
-                    Apoio
+                <Typography className="title-apoio" variant="h5">
+                    Parceiros
                 </Typography>
 
                 <Grid container spacing={5} style={{marginTop:'30px'}}>
-                    <Grid item xs={12} sm={4}>
-                        <Card variant="outlined">
-                            <CardActionArea style={{ height: '100%' }}>
-                                <CardContent style={{ textAlign: 'center', paddingTop: '20px' }}>
-                                    <img style={{width: '100%', height:'180px'}}
-                                        src={logoUnicap}
-                                        alt="Universidade Católica de Pernambuco"
-                                        title="Universidade Católica de Pernambuco"
-                                    />
-
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
+                    <Grid item xs={12} sm={6}>
+                        <img style={{width: '100%', height:'180px'}}
+                            src={cfc}
+                            alt="Colégio Fazer Crescer"
+                            title="Colégio Fazer Crescer"
+                        />     
                     </Grid>
 
-                    <Grid item xs={12} sm={4}>
-                        <Card variant="outlined">
-                            <CardActionArea style={{ height: '100%' }}>
-                                <CardContent style={{ textAlign: 'center', paddingTop: '20px' }}>
-                                    <img style={{width: '100%', height:'180px'}}
-                                        src={logo}
-                                        alt="Unicap Icam Tech School for Girls"
-                                        title="Unicap Icam Tech School for Girls"
-                                    />
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
+                    <Grid item xs={12} sm={6}>
+                        <img style={{width: '100%', height:'280px'}}
+                            src={liceu_nobrega}
+                            alt="Escola Liceu Nóbrega de Artes e Ofícios"
+                            title="Escola Liceu Nóbrega de Artes e Ofícios"
+                        />
                     </Grid>
 
-                    <Grid item xs={12} sm={4}>
-                        <Card variant="outlined">
-                            <CardActionArea style={{ height: '100%' }}>
-                                <CardContent style={{ textAlign: 'center', paddingTop: '20px' }}>
-                                    <img style={{width: '100%', height:'180px'}}
-                                        src={logoIcam}
-                                        alt="Unicap Icam Tech"
-                                        title="Unicap Icam Tech"
-                                    />
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </Grid>
                 </Grid>
 
+            </div>
+
+            <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
+
+                <Typography className="title-apoio" variant="h5">
+                    Organização
+                </Typography>
+
+                <Grid container spacing={5} style={{marginTop:'30px'}}>
+                    <Grid item xs={12} sm={12}>
+                        <img style={{width: '350px', height:'350px'}}
+                            src={unicas}
+                            alt="Coletivo Unicas - Mulheres na Ciência e Tecnologia da UNICAP"
+                            title="Coletivo Unicas - Mulheres na Ciência e Tecnologia da UNICAP"
+                        />
+
+                    </Grid>
+                </Grid>
             </div>
         </div>
     )
