@@ -1,23 +1,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-.title{
+.title-mentoras{
     color: #351B69;
-    font-weight: bolder;
     font-family: 'Roboto';
     padding-top: 40px;
 }
 
-.subtitulo{
+.subtitulo-mentoras{
     color: #0000;
-    font-weight: bolder;
+    font-weight: 'regular';
     font-family: 'Roboto';
 }
-
-.mentores{
-    background-color: #DBB4E1;
+.mentoras {
+    background-color: #F0F0F0;
 }
-
-.img-mentores{
+.img-mentoras{
     border-radius: 100%;
+}
+.cor-icons{
+    text-decoration: none !important;
+    color: #351B69;
+}
+.cor-icons:hover{
+    color: #FF0C9E;
 }
