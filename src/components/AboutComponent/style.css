@@ -1,4 +1,7 @@
-
+.title-sobre{
+    text-align: left;
+    color: #5D4097;
+}
 .about{
     padding-top: 50px;
 }
@@ -13,4 +16,14 @@
 .div-instagram{
     text-align: left;
     padding-top: 30px;
+}
+
+.btn-sobre{
+    color: #FF0C9E !important;
+    border: 1px solid #000000 !important;
+}
+.btn-sobre:hover{
+    color: #FFFFFF !important;
+    border: 1px solid #FF0C9E !important;
+    background-color: #FF0C9E !important;
 }

@@ -19,12 +19,12 @@ export default (function ProgramacaoComponent() {
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={12} >
                         <div>
-                            <Typography className="title" variant="h4">
+                            <Typography className="title-programacao" variant="h5">
                                 Programação
                             </Typography>
-                            <Typography className="subtitle" variant="h6">
-                                Confira nossa programação de ensino para a Unicap Technovation for Girls
-                            </Typography>
+                            <p className="subtitle-programacao">
+                                Confira nossa programação de ensino para a Unicap Icam (UI) Tech School for girls
+                            </p>
                         </div>
                     </Grid>
                 </Grid>

@@ -17,11 +17,11 @@ export default (function HomePage() {
             <div className="container">
                 <AboutComponent />
             </div>
+            <MentoresComponent />
             <ProgramacaoComponent />          
             <div className="container">
                 <ApoioComponent />
             </div>
-            <MentoresComponent />
             <Footer />
         </div>
     )

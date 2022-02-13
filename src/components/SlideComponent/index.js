@@ -10,18 +10,18 @@ export default (function SlideComponents() {
         <div className="slide">
             <img className="imagem"
                 src={ImageSlide}
-                alt="Imagem do slide"
-                title="Imagem do slide"
+                alt="Imagem do slide Unicap Icam (UI) Tech School for girls"
+                title="Imagem do slide Unicap Icam (UI) Tech School for girls"
             />
             
             <div className="noticias">
                 <Typography className="title-noticias" variant="h6">
-                    Incrições abertas para a Unicap Icam Tech School for Girls
+                    Inscrições abertas para a Unicap Icam (UI) Tech School for girls
                 </Typography>
             </div>
 
             <div className="div-noticias">
-                <a href="https://forms.gle/Yjcr3yC45wuZ3fAL7" target="_blank" className="link-btn-instagram">
+                <a href="#" target="_blank" className="link-btn-instagram">
                     <Button variant="contained" size="large" className="btn-noticias" >
                         Inscreva-se
                     </Button>
