@@ -1,39 +1,49 @@
-
+@font-face {
+    font-family: 'CaeciliaBold';
+    src: url('../../fonts/CaeciliaLTPro75Bold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CaeciliaRoman';
+    src: url('../../fonts/CaeciliaLTPro55Roman.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .slide{
-    position: relative;
+    background-color: #763A9E;
+    padding: 20px;
+    text-align: center;
 }
-.imagem{
-    position: relative;
-    width: 100%;
-    height: 100%;
+.title-slide{
+    font-family: 'CaeciliaBold';
+    color: #ffffff;
+    font-size: 80px;
 }
-
+.subtitle-slide{
+    font-family: 'CaeciliaLight';
+    color: #ffffff;
+    font-size: 40px;
+}
 .noticias{
-    background-color: #5D4097;
-    height: 122px;
-    position: absolute;
+    height: 100px;
     margin-top: -50px;
     width: 100%;
 }
-
 .div-noticias{
-    text-align: right;
-    padding-right: 100px;
+    text-align: start;
+    margin-top: 10px;
 }
-
 .btn-noticias{
-    background-color: #CB6CE6!important;
+    background-color: #763A9E!important;
     color: #ffff!important;
+    font-family: 'CaeciliaBold';
 }
-
 .btn-noticias:hover{
-    background-color: #b851d4!important;
+    background-color: #B388BF!important;
 }
-
 .title-noticias{
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 50px;
-    text-transform: uppercase;
 }
-

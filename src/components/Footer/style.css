@@ -1,6 +1,12 @@
-
+@font-face {
+    font-family: 'CaeciliaLight';
+    src: url('../../fonts/CaeciliaLTPro45Light.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .footer-copyright{
-    /* background-color: #472F77; */
     padding: 20px;
     color: #000000;
+    font-family: 'CaeciliaLight';
+    font-size: 16px;
 }

@@ -7,14 +7,11 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import logoImage from '../../static/images/logo.png';
 import './style.css';
 
-const pages = ['Início', 'Sobre', 'Mentoras', 'Programação', 'Parceiros', 'Contato'];
+const pages = ['Sobre', 'Mentoras', 'Parceiros', 'Contato'];
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -45,14 +42,6 @@ const NavBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <a href="/">
-                <img
-                    alt="Logo"
-                    title= "Unicap Icam (UI) Tech School for girls"
-                    src={logoImage}
-                    className = "img-logo"
-                />
-            </a>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -97,14 +86,6 @@ const NavBar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
-            <a href="/">
-                <img
-                    alt="Logo"
-                    title= "Unicap Icam (UI) Tech School for girls"
-                    src={logoImage}
-                    className = "img-logo"
-                />
-            </a>
           </Typography>
           <Box style={{justifyContent: 'space-around'}} sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (

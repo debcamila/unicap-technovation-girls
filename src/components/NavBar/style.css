@@ -1,12 +1,20 @@
+@font-face {
+    font-family: 'CaeciliaRoman';
+    src: url('../../fonts/CaeciliaLTPro55Roman.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .img-logo{
     width: 140px;
     height: 80px;
 }
 .nav-link {
-    color: #828282 !important;
+    color: #763A9E !important;
+    font-family: 'CaeciliaRoman'  !important;;
 }
 .nav-link:hover{
-    color: #FF0C9E !important;
+    color: #BF88BF !important;
+    font-family: 'CaeciliaRoman'  !important;;
 }
 .icon-color{
     color: #000000;

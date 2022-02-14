@@ -1,12 +1,38 @@
+@font-face {
+    font-family: 'CaeciliaLight';
+    src: url('../../fonts/CaeciliaLTPro45Light.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CaeciliaBold';
+    src: url('../../fonts/CaeciliaLTPro75Bold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CaeciliaRoman';
+    src: url('../../fonts/CaeciliaLTPro55Roman.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .title-sobre{
     text-align: left;
-    color: #5D4097;
+    color: #763A9E;
+    font-size: 25px;
+    font-family: 'CaeciliaBold';
+}
+.title-areas{
+    color: #763A9E;
+    font-family: 'CaeciliaRoman';
+    font-size: 18px;
 }
 .about{
     padding-top: 50px;
 }
 .text-about{
     text-align: left;
+    font-family: 'CaeciliaLight';
 }
 
 .link-btn-instagram{
@@ -16,14 +42,4 @@
 .div-instagram{
     text-align: left;
     padding-top: 30px;
-}
-
-.btn-sobre{
-    color: #FF0C9E !important;
-    border: 1px solid #000000 !important;
-}
-.btn-sobre:hover{
-    color: #FFFFFF !important;
-    border: 1px solid #FF0C9E !important;
-    background-color: #FF0C9E !important;
 }

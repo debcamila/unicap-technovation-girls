@@ -1,7 +1,11 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@font-face {
+    font-family: 'CaeciliaBold';
+    src: url('../../fonts/CaeciliaLTPro75Bold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .title-apoio{
-    color: #351B69;
-    font-family: 'Roboto';
+    color: #763A9E;
+    font-family: 'CaeciliaBold';
+    font-size: 25px;
 }

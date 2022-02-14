@@ -1,16 +1,35 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-.title-mentoras{
-    color: #351B69;
-    font-family: 'Roboto';
-    padding-top: 40px;
+@font-face {
+    font-family: 'CaeciliaBold';
+    src: url('../../fonts/CaeciliaLTPro75Bold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-
-.subtitulo-mentoras{
-    color: #0000;
-    font-weight: 'regular';
-    font-family: 'Roboto';
+@font-face {
+    font-family: 'CaeciliaRoman';
+    src: url('../../fonts/CaeciliaLTPro55Roman.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CaeciliaLight';
+    src: url('../../fonts/CaeciliaLTPro45Light.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.title-mentoras{
+    color: #763A9E;
+    padding-top: 40px;
+    font-family: 'CaeciliaBold';
+    font-size: 25px;
+}
+.subtitle-mentoras {
+    font-family: 'CaeciliaRoman';
+    font-size: 18px;
+}
+.formacao {
+    font-family: 'CaeciliaLight';
+    font-size: 16px;
 }
 .mentoras {
     background-color: #F0F0F0;
@@ -20,8 +39,5 @@
 }
 .cor-icons{
     text-decoration: none !important;
-    color: #351B69;
-}
-.cor-icons:hover{
-    color: #FF0C9E;
+    color: #000000;
 }

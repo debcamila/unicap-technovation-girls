@@ -17,6 +17,7 @@ import IconButton from '@material-ui/core/IconButton';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailIcon from '@material-ui/icons/Mail';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import lattes from '../../static/images/lattes.png'
 import "./style.css";
 
 
@@ -26,12 +27,9 @@ export default (function MentoresComponent() {
         <div className="mentoras" id="mentoras">
             <div className='container' style={{ marginTop: '50px' }}>
 
-                <Typography className="title-mentoras" variant="h5">
+                <p className="title-mentoras">
                     Mentoras
-                </Typography>
-                <Typography className="subtitle-mentoras" variant="p">
-                    Conheça nossa equipe de pessoas mentoras dedicadas a ajudar as estudantes durante a competição
-                </Typography>
+                </p>
 
                 <Grid container spacing={5} style={{marginTop:'30px', display: 'flex', justifyContent: 'flex-start'}}>
                     <Grid item xs={12} sm={4}>
@@ -40,19 +38,14 @@ export default (function MentoresComponent() {
                             alt="Alice Florencio"
                             title="Alice Florencio"
                         />
-                        <Typography className="subtitle" variant="h6">
+                        <p className="subtitle-mentoras">
                             Alice Florencio
-                        </Typography>
-                        <p>Graduanda em Sistemas para Internet</p>
+                        </p>
+                        <p className="formacao">Graduanda em Sistemas para Internet</p>
                         
                         <IconButton>
                             <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
-                            </a>
-                        </IconButton>
-                        <IconButton>
-                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                <GitHubIcon fontSize="medium" className="cor-icons" />
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                         </IconButton>
                         <IconButton>
@@ -68,19 +61,14 @@ export default (function MentoresComponent() {
                                 alt="Deborah Camila"
                                 title="Deborah Camila"
                             />    
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Deborah Camila
-                            </Typography>
-                            <p>Graduada em Ciência da Computação</p>
+                            </p>
+                            <p className="formacao">Graduada em Ciência da Computação</p>
                             
                             <IconButton>
-                                <a href="https://www.linkedin.com/in/debcamila/" target="_blank" style={{textDecoration: 'none'}}>
-                                    <LinkedInIcon fontSize="medium" className="cor-icons" />
-                                </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="https://github.com/debcamila" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
+                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                    <img src={lattes} style={{width: '1em', height: '1em'}} />
                                 </a>
                             </IconButton>
                             <IconButton>
@@ -96,20 +84,15 @@ export default (function MentoresComponent() {
                                 alt="Graziela de Oliveira"
                                 title="Graziela de Oliveira"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Graziela de Oliveira
-                            </Typography>
-                            <p>Graduanda em Ciência da Computação</p>
+                            </p>
+                            <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/graziela-oliveira-8a41a4224" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:graziela.00000032614@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -126,20 +109,15 @@ export default (function MentoresComponent() {
                                 alt="Maria Eduarda Azenha"
                                 title="Maria Eduarda Azenha"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Maria Eduarda Azenha
-                            </Typography>
-                            <p>Graduanda em Ciência da Computação</p>
+                            </p>
+                            <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/eduarda-ap/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:maria.00000829620@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -154,20 +132,15 @@ export default (function MentoresComponent() {
                                 alt="Maria do Carmo"
                                 title="Maria do Carmo"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Maria do Carmo
-                            </Typography>
-                            <p>Graduanda em Ciência da Computação</p>
+                            </p>
+                            <p className="formacao">Graduanda em Ciência da Computação</p>
 
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/mariadocarmoalcantara/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:maria.2020202380@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -182,20 +155,15 @@ export default (function MentoresComponent() {
                                 alt="Mariana Oliveira"
                                 title="Mariana Oliveira"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Mariana Oliveira
-                            </Typography>
-                            <p>Graduanda em Engenharia da Complexidade</p>
+                            </p>
+                            <p className="formacao">Graduanda em Engenharia da Complexidade</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/mariana-oliveira-b84a49211/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:" target="_blank" style={{textDecoration: 'none'}}>
@@ -212,20 +180,15 @@ export default (function MentoresComponent() {
                                 alt="Marília Vilar"
                                 title="Marília Vilar"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Marília Vilar
-                            </Typography>
-                            <p>Graduanda em Sistemas para Internet</p>
+                            </p>
+                            <p className="formacao">Graduanda em Sistemas para Internet</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/mariliavilar/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="https://github.com/mariliavilar" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:marilia.2020107087@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -240,20 +203,15 @@ export default (function MentoresComponent() {
                                 alt="Mayara Ribeiro"
                                 title="Mayara Ribeiro"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Mayara Ribeiro
-                            </Typography>
-                            <p>Graduanda em Sistemas para Internet</p>
+                            </p>
+                            <p className="formacao">Graduanda em Sistemas para Internet</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/mayara-ribeiro-/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:mayara.2020107096@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -268,20 +226,15 @@ export default (function MentoresComponent() {
                                 alt="Rayssa Muniz"
                                 title="Rayssa Muniz"
                             />
-                            <Typography className="subtitle" variant="h6">
+                            <p className="subtitle-mentoras">
                                 Rayssa Muniz
-                            </Typography>
-                            <p>Graduanda em Ciência da Computação</p>
+                            </p>
+                            <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="https://www.linkedin.com/in/rayssamuniz/" target="_blank" style={{textDecoration: 'none'}}>
-                                <LinkedInIcon fontSize="medium" className="cor-icons" />
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                                <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
-                            </IconButton>
-                            <IconButton>
-                                <a href="#" target="_blank" style={{textDecoration: 'none'}}>
-                                    <GitHubIcon fontSize="medium" className="cor-icons" />
-                                </a>
                             </IconButton>
                             <IconButton>
                                 <a href="mailto:rayssa.00000829609@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
@@ -294,12 +247,9 @@ export default (function MentoresComponent() {
         </div>
 
         <div className='container' style={{ marginTop: '50px' }}>
-                <Typography className="title-mentoras" variant="h5">
+                <p className="title-mentoras">
                     Coordenação do Projeto
-                </Typography>
-                <Typography className="subtitle-mentoras" variant="p">
-                    Conheça nossa equipe de professoras dedicadas a coordenar e apoiar nossas mentoras
-                </Typography>
+                </p>
 
                 <Grid container spacing={5} style={{marginTop:'30px', display: 'flex', justifyContent: 'flex-start'}}>
                     <Grid item xs={12} sm={4}>
@@ -308,19 +258,20 @@ export default (function MentoresComponent() {
                             alt="Andrea Maria"
                             title="Andrea Maria"
                         />
-                        <Typography className="subtitle" variant="h6">
+                        <p className="subtitle-mentoras">
                             Andrea Maria
-                        </Typography>
-                    </Grid>
-                    <Grid item xs={12} sm={4}>
-                        <img style={{width: 'auto', height:'200px'}}
-                            src={michelle_tenca}
-                            alt="Michelle Tenca"
-                            title="Michelle Tenca"
-                        />
-                        <Typography className="subtitle" variant="h6">
-                            Michelle Tenca
-                        </Typography>
+                        </p>
+                        <p className="formacao">Profa. do Curso de Ciência da Computação</p>
+                        <IconButton>
+                        <a href="http://lattes.cnpq.br/8974060133002427" target="_blank" style={{textDecoration: 'none'}}>
+                            <img src={lattes} style={{width: '1em', height: '1em'}} />
+                        </a>
+                        </IconButton>
+                        <IconButton>
+                            <a href="mailto:andrea.ribeiro@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
+                                <MailIcon fontSize="medium" className="cor-icons" />
+                            </a>
+                        </IconButton>
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <img style={{width: 'auto', height:'200px'}}
@@ -328,9 +279,40 @@ export default (function MentoresComponent() {
                             alt="Liliane Fonseca"
                             title="Liliane Fonseca"
                         />
-                        <Typography className="subtitle" variant="h6">
+                        <p className="subtitle-mentoras">
                             Liliane Fonseca
-                        </Typography>
+                        </p>
+                        <p className="formacao">Profa. e Coord. do Curso Ciência da Computação</p>
+                        <IconButton>
+                        <a href="http://lattes.cnpq.br/9581301411261992" target="_blank" style={{textDecoration: 'none'}}>
+                            <img src={lattes} style={{width: '1em', height: '1em'}} />                        </a>
+                        </IconButton>
+                        <IconButton>
+                            <a href="mailto:liliane.fonseca@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
+                                <MailIcon fontSize="medium" className="cor-icons" />
+                            </a>
+                        </IconButton>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                        <img style={{width: 'auto', height:'200px'}}
+                            src={michelle_tenca}
+                            alt="Michelle Tenca"
+                            title="Michelle Tenca"
+                        />
+                        <p className="subtitle-mentoras">
+                            Michelle Tenca
+                        </p>
+                        <p className="formacao">Profa. do Curso de Ciência da Computação</p>
+                        <IconButton>
+                        <a href="http://lattes.cnpq.br/8738880419326166" target="_blank" style={{textDecoration: 'none'}}>
+                            <img src={lattes} style={{width: '1em', height: '1em'}} />
+                        </a>
+                        </IconButton>
+                        <IconButton>
+                            <a href="mailto:michelle.tenca@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
+                                <MailIcon fontSize="medium" className="cor-icons" />
+                            </a>
+                        </IconButton>
                     </Grid>
                 </Grid>
             </div>

@@ -1,15 +1,19 @@
 
+@font-face {
+    font-family: 'CaeciliaBold';
+    src: url('../../fonts/CaeciliaLTPro75Bold.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .footer{
-    background-color: #5D4097;
+    background-color: #B388BF;
     padding: 20px;
 }
-
 .duvidas{
     color: #ffff;
+    font-family: 'CaeciliaBold';
 }
-
 .icons-footer{color: #ffff;}
-
 .icons-footer-div{
     display: flex;
     align-content: center;

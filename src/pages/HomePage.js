@@ -3,7 +3,6 @@ import React from 'react';
 import SlideComponent from '../components/SlideComponent';
 import ApoioComponent from '../components/ApoioComponent';
 import MentoresComponent from '../components/MentoresComponent';
-import ProgramacaoComponent from '../components/ProgramacaoComponent';
 import Footer from '../components/Footer';
 import AboutComponent from '../components/AboutComponent';
 import NavBar from '../components/NavBar';
@@ -18,7 +17,6 @@ export default (function HomePage() {
                 <AboutComponent />
             </div>
             <MentoresComponent />
-            <ProgramacaoComponent />          
             <div className="container">
                 <ApoioComponent />
             </div>
