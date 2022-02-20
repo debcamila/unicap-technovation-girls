@@ -7,7 +7,7 @@ import "./style.css";
 
 export default (function ApoioComponent() {
     return (
-        <div className="parceiros" id="parceiros">
+        <div className="parceiros" id="Parceiros">
             <div className='container' style={{ marginTop: '80px', marginBottom: '50px' }}>
 
                 <p className="title-apoio">

@@ -26,9 +26,8 @@
     font-size: 40px;
 }
 .noticias{
-    height: 100px;
-    margin-top: -50px;
-    width: 100%;
+    display:inline-flex;
+    padding: 5px;
 }
 .div-noticias{
     text-align: start;
@@ -43,7 +42,10 @@
     background-color: #B388BF!important;
 }
 .title-noticias{
-    color: #fff;
-    text-align: center;
-    padding: 50px;
+    color: #763A9E;
+    padding: 25px;
+}
+.div-btn-inscricao{
+    margin: auto 0;
+    text-decoration: none;
 }

@@ -7,7 +7,7 @@ import "./style.css";
 
 export default (function FooterComponent() {
     return (
-        <div className="footer">
+        <div className="footer" id="Contato">
             <div className='container' style={{ marginBottom: '50px', marginTop: '50px' }}>
 
                 <Grid container style={{ marginTop: '30px' }}>

@@ -24,11 +24,16 @@ const NavBar = () => {
     setAnchorElUser(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
+  const handleCloseNavMenu = (event) => {
+    console.log(event)
+    if(event.target.innerText === "SOBRE"){
+
+    }
     setAnchorElNav(null);
   };
 
   const handleCloseUserMenu = () => {
+    console.log('hereee222')
     setAnchorElUser(null);
   };
 
@@ -74,7 +79,7 @@ const NavBar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
+                <MenuItem key={page} href={`#${page}`}onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -92,6 +97,7 @@ const NavBar = () => {
               <Button
                 className="nav-link"
                 key={page}
+                href={`#${page}`}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >

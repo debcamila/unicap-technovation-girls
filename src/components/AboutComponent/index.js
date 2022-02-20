@@ -11,7 +11,7 @@ import "./style.css";
 
 export default (function AboutComponent() {
     return (
-        <div className="about" id="sobre">
+        <div className="about" id="Sobre">
             <Grid container spacing={5} style={{marginBottom: '25px'}}>
 
                 <Grid item xs={12} sm={6}>
