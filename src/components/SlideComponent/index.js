@@ -16,7 +16,7 @@ export default (function SlideComponents() {
                 </Grid>
             </Grid>
 
-            <Grid container style={{backgroundColor: '#DFC5E6'}}>
+            {/* <Grid container style={{backgroundColor: '#DFC5E6'}}>
                 <Grid item xs={12} sm={12} >
                     <div className="noticias">
                         <p className="title-noticias">
@@ -29,7 +29,7 @@ export default (function SlideComponents() {
                         </a>
                     </div>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </div>
     )
 })
