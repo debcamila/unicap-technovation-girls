@@ -10,7 +10,8 @@
 }
 .nav-link {
     color: #763A9E !important;
-    font-family: 'CaeciliaRoman'  !important;;
+    font-family: 'CaeciliaRoman' !important;
+    text-decoration: none;
 }
 .nav-link:hover{
     color: #BF88BF !important;

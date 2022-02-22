@@ -23,17 +23,10 @@ const NavBar = () => {
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
-
   const handleCloseNavMenu = (event) => {
-    console.log(event)
-    if(event.target.innerText === "SOBRE"){
-
-    }
     setAnchorElNav(null);
   };
-
   const handleCloseUserMenu = () => {
-    console.log('hereee222')
     setAnchorElUser(null);
   };
 
@@ -79,9 +72,11 @@ const NavBar = () => {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} href={`#${page}`}onClick={handleCloseNavMenu}>
+                <a href={`#${page}`} className="nav-link">
+                <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
+                </a>
               ))}
             </Menu>
           </Box>
