@@ -15,21 +15,6 @@ export default (function SlideComponents() {
                     </div>
                 </Grid>
             </Grid>
-
-            {/* <Grid container style={{backgroundColor: '#DFC5E6'}}>
-                <Grid item xs={12} sm={12} >
-                    <div className="noticias">
-                        <p className="title-noticias">
-                            Inscrições abertas para a UI TECHnovation for girls
-                        </p>
-                        <a href="#" target="_blank" className="div-btn-inscricao">
-                            <Button variant="contained" size="medium" className="btn-noticias">
-                                Inscreva-se
-                            </Button>
-                        </a>
-                    </div>
-                </Grid>
-            </Grid> */}
         </div>
     )
 })
