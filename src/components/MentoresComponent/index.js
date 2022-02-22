@@ -44,7 +44,7 @@ export default (function MentoresComponent() {
                         <p className="formacao">Graduanda em Sistemas para Internet</p>
                         
                         <IconButton>
-                            <a href="#" style={{textDecoration: 'none'}}>
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                         </IconButton>
@@ -90,7 +90,7 @@ export default (function MentoresComponent() {
                             <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="#" style={{textDecoration: 'none'}}>
+                            <a href="http://lattes.cnpq.br/1870830489862015" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                             </IconButton>
@@ -115,7 +115,7 @@ export default (function MentoresComponent() {
                             <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="#" style={{textDecoration: 'none'}}>
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                             </IconButton>
@@ -166,7 +166,7 @@ export default (function MentoresComponent() {
                             </a>
                             </IconButton>
                             <IconButton>
-                                <a href="mailto:" target="_blank" style={{textDecoration: 'none'}}>
+                                <a href="mailto:mariana.0000032581@unicap.br" target="_blank" style={{textDecoration: 'none'}}>
                                     <MailIcon fontSize="medium" className="cor-icons" />
                                 </a>
                             </IconButton>
@@ -209,7 +209,7 @@ export default (function MentoresComponent() {
                             <p className="formacao">Graduanda em Sistemas para Internet</p>
                             
                             <IconButton>
-                            <a href="#" style={{textDecoration: 'none'}}>
+                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                             </IconButton>
