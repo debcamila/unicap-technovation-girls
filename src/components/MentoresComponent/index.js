@@ -44,7 +44,7 @@ export default (function MentoresComponent() {
                         <p className="formacao">Graduanda em Sistemas para Internet</p>
                         
                         <IconButton>
-                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                            <a href="http://lattes.cnpq.br/7921008631169151" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                         </IconButton>
@@ -115,7 +115,7 @@ export default (function MentoresComponent() {
                             <p className="formacao">Graduanda em Ciência da Computação</p>
                             
                             <IconButton>
-                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                            <a href="http://lattes.cnpq.br/4668190439671783" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                             </IconButton>
@@ -209,7 +209,7 @@ export default (function MentoresComponent() {
                             <p className="formacao">Graduanda em Sistemas para Internet</p>
                             
                             <IconButton>
-                            <a href="#" target="_blank" style={{textDecoration: 'none'}}>
+                            <a href="http://lattes.cnpq.br/0260360273826418" target="_blank" style={{textDecoration: 'none'}}>
                                 <img src={lattes} style={{width: '1em', height: '1em'}} />
                             </a>
                             </IconButton>
