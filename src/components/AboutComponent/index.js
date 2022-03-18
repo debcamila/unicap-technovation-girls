@@ -6,7 +6,7 @@ import ComputerIcon from '@material-ui/icons/Computer';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import CreateIcon from '@material-ui/icons/Create';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
-import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from '@material-ui/icons/Search';
 import "./style.css";
 
 export default (function AboutComponent() {

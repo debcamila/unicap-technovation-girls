@@ -2,7 +2,6 @@
 import React from 'react';
 import "./style.css";
 import { Grid } from '@material-ui/core';
-import Button from '@material-ui/core/Button';
 
 export default (function SlideComponents() {
     return (
